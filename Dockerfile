@@ -1,27 +1,14 @@
-# https://www.swoole.co.uk/docs/get-started/try-docker
-FROM php:7.4.2-cli
+FROM phpswoole/swoole:4.6-php7.4-alpine
 
-RUN apt-get update && apt-get install vim -y && \
-    apt-get install openssl -y && \
-    apt-get install libssl-dev -y && \
-    apt-get install wget -y && \
-    apt-get install git -y && \
-    apt-get install procps -y && \
-    apt-get install htop -y
+WORKDIR /app
 
-RUN cd /tmp && git clone https://github.com/swoole/swoole-src.git && \
-    cd swoole-src && \
-    git checkout v4.5.2 && \
-    phpize  && \
-    ./configure  --enable-openssl && \
-    make && make install
+COPY composer.lock /app
+COPY composer.json /app
 
-RUN touch /usr/local/etc/php/conf.d/swoole.ini && \
-    echo 'extension=swoole.so' > /usr/local/etc/php/conf.d/swoole.ini
+RUN composer install
 
-RUN wget -O /usr/local/bin/dumb-init https://github.com/Yelp/dumb-init/releases/download/v1.2.2/dumb-init_1.2.2_amd64
-RUN chmod +x /usr/local/bin/dumb-init
+COPY . /app
 
-RUN apt-get autoremove -y && rm -rf /var/lib/apt/lists/*
+EXPOSE 8080
 
-ENTRYPOINT ["/usr/local/bin/dumb-init", "--", "php"]
+CMD [ "php", "app/server.php" ]

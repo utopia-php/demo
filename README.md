@@ -4,9 +4,8 @@ This project uses the [Utopia framework](https://github.com/utopia-php/framework
 
 ## Install
 ```bash
-git clone https://github.com/kodumbeats/utopiademo
-cd utopiademo
-composer install
+git clone https://github.com/utopia-php/demo
+cd demo
 docker-compose up -d
 ```
 
