@@ -1,0 +1,260 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="632px" height="531px" viewBox="-0.5 -0.5 632 531" content="&lt;mxfile host=&quot;02f64039-fe38-46fc-b1a8-feaa359fa1d0&quot; modified=&quot;2021-03-09T15:27:20.006Z&quot; agent=&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) VSCodium/1.53.2 Chrome/87.0.4280.141 Electron/11.2.1 Safari/537.36&quot; version=&quot;13.10.0&quot; etag=&quot;dcSaGTGUVmUMEb-G9vc4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;EXKMh4dgRFJmgJpzqrSH&quot; name=&quot;Page-1&quot;&gt;7Vpbc5s4FP41fmzGIMD2Y5LmsjPtTKbuzm4fFaxgGoGoELHdX78SksAC4TqJIV6PXxJ0dD/nO590jjwC18n6jsJs+ZUsEB6548V6BD6PXNeZeTP+T0g2UhIEnhRENF6oRrVgHv9GSjhW0iJeoNxoyAjBLM5MYUjSFIXMkEFKycps9kSwOWsGI9QSzEOI29J/4gVbSunUndTyexRHSz2zE6gNP8LwOaKkSNV8KUmRrEmgHkbtMV/CBVlticDNCFxTQpj8StbXCAu1ao3JfrcdtdWSKUrZPh2URV4gLtSuR26AederJ8JH4FqDoawIfhViUVcPJMviNK8FwsKQwU+iw6echkbrJWPCWpdiBe6taJJfRIREGMEszi9CknBxmPMmt08wibGAim2GnG2wuQ45XQkaPvrY8bL1do8gEv/vv39/4JXf0K8C5UxvTa1EN1KWqGZwS9MhoSGHV6+WMUPzTOphxaFebivBqjp/RiwURh3zAqShwrEvijmj5BldE0xoOTJ4Grso8Ks5XxBlaN1pOqcCBPcxRBLE6IY3UR08BSHlXe5UlVc1Vh0Ns+UWTgMlg8o9omrkGif8Q0GlAzZTC24aWkQL7k2qSChbkoikEN/U0quwoC+lmoWuTKUbWq17fyEkUy1+IsY2StmwYMS0irCvqnTAHpYQi91tB743UlDlDJoDGKQRUq28id1cFGHI4hdz+Pcof9LS/RxxRdKWBfJVnGCYot3aFaq6bfqe0qDesXRj1xeu5gtX9ruc2ZfuzJtqh+afzWGVYby+XcQdmz7i+S0XAY7FRXyww0fUbN/4kQNTvvd6uok5m80hPctsLjAng5ghmkKGroTR8hY0qn3uhRanDRfNg3kG025uXaklCnZNCU0gbvPrVyhwxAmWFAzpYR9pzaxXbeEdEufKHUekgFTFyHIxHYz8Bw420f2xgC7LauWlr3GO0A1c0O+B0cFAqsPMN+BZYXGIA8Od9YjCmzUKS/xJVLUh91caC8zdE/Kc21B6BuFgIHSmjWvLkCgEYBAUdrDhZchikp7xd1T4A0PiT891CPyVYVEzCAI8CCoB1c2QmDyW6K1AuEds1TXsfFkwHr6mNm59x7An5hDgf+UQnuWS3JtD+DaHaMaR6eJSZHN4KcQwz+Nwd6iH1jH7VyjywlelH6ql+P68VjouCxtdSPnCtzqJ4o/turpbWdL93hVWTtphpe+240qnw35b9vFtMYyS7R1+qhkeSFwmfjQ8/MatcTw1h5DLV722M02NgQBo5it8cyC559ZAbwh5tBbfmdV6Y85pviIE7xsM/c1IFsOdd4KeUlXd0G06VIONDh+JDMk4TnAYxvm4u1XNVQZT1cTVwVWaFzUTbvXq5MVDp828Nr19KLsFJic5zbzPvuTmOPbUz+G5zT32zOuhIeNYUq1doDl4qhXscz85JW3bEtsydzOAti2Z7V6SRK0Q6JwlGjwo+UPi3um4LA6SJbJdH0/a6WdtpwcdBnrdgcuvUXCz1SATJ2DefR57DbuDwN957jYP8EZ7/iFX8NbTFtjex08ZCsCxQAEMddo6PfK/fHZ6gBQmHIAcNgFMBDfLv7bT4CcqE7bns+C4zgIw5FmgQ9Nj8fchk1t9/4ZCv8YYXDMdimtsd81jsvSrtW2odtpWrX582MPzDq9tW9Q68MNH82n4/O5x4u8erztWvNmQD4F9RrrVjx7zjN9e0Imh6rgvK77fDFz7QxUv1j8UlsFN/UNscPMf&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <style type="text/css">
+            /* devanagari */&#xa;@font-face {&#xa;  font-family: 'Poppins';&#xa;  font-style: normal;&#xa;  font-weight: 400;&#xa;  src: url("https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJbecmNE.woff2") format('woff2');&#xa;  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;&#xa;}&#xa;/* latin-ext */&#xa;@font-face {&#xa;  font-family: 'Poppins';&#xa;  font-style: normal;&#xa;  font-weight: 400;&#xa;  src: url("https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJnecmNE.woff2") format('woff2');&#xa;  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;&#xa;}&#xa;/* latin */&#xa;@font-face {&#xa;  font-family: 'Poppins';&#xa;  font-style: normal;&#xa;  font-weight: 400;&#xa;  src: url("https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfecg.woff2") format('woff2');&#xa;  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;&#xa;}&#xa;
+        </style>
+    </defs>
+    <g>
+        <rect x="0" y="235" width="120" height="60" rx="30" ry="30" fill="#ffffff" stroke="#f02e65" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 265px; margin-left: 1px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font face="Poppins" data-font-src="https://fonts.googleapis.com/css?family=Poppins" style="font-size: 14px">
+                                    HTTP Request
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="60" y="269" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    HTTP Request
+                </text>
+            </switch>
+        </g>
+        <path d="M 470 265 L 503.63 265" fill="none" stroke="#f02e65" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 508.88 265 L 501.88 268.5 L 503.63 265 L 501.88 261.5 Z" fill="#f02e65" stroke="#f02e65" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 470 23 L 470 10.35 Q 470 0 459.65 0 L 170.35 0 Q 160 0 160 10.35 L 160 23" fill="#ffffff" stroke="#f02e65" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 160 23 L 160 519.65 Q 160 530 170.35 530 L 459.65 530 Q 470 530 470 519.65 L 470 23" fill="none" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 160 23 L 470 23" fill="none" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Poppins" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="14px">
+            <text x="314.5" y="17">
+                Server
+            </text>
+        </g>
+        <rect x="255" y="140" width="120" height="60" rx="30" ry="30" fill="#ffffff" stroke="#f02e65" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 170px; margin-left: 256px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 14px; font-family: Poppins; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                <span style="font-weight: normal">
+                                    Match Route
+                                    <br/>
+                                    +
+                                    <br/>
+                                    Get Groups
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="315" y="174" fill="#000000" font-family="Poppins" font-size="14px" text-anchor="middle" font-weight="bold">
+                    Match Route...
+                </text>
+            </switch>
+        </g>
+        <rect x="340" y="240" width="120" height="60" rx="30" ry="30" fill="#ffffff" stroke="#f02e65" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 270px; margin-left: 341px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 14px; font-family: Poppins; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                <span style="font-weight: normal">
+                                    Execute Group
+                                    <br/>
+                                    Init Hooks
+                                    <br/>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="400" y="274" fill="#000000" font-family="Poppins" font-size="14px" text-anchor="middle" font-weight="bold">
+                    Execute Group...
+                </text>
+            </switch>
+        </g>
+        <rect x="340" y="340" width="120" height="60" rx="30" ry="30" fill="#ffffff" stroke="#f02e65" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 370px; margin-left: 341px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 14px; font-family: Poppins; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                <span style="font-weight: normal">
+                                    Execute Route
+                                    <br/>
+                                    Action
+                                    <br/>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="400" y="374" fill="#000000" font-family="Poppins" font-size="14px" text-anchor="middle" font-weight="bold">
+                    Execute Route...
+                </text>
+            </switch>
+        </g>
+        <rect x="340" y="445" width="120" height="60" rx="30" ry="30" fill="#ffffff" stroke="#f02e65" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 475px; margin-left: 341px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 13px; font-family: Poppins; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                <span style="font-weight: normal ; font-size: 13px">
+                                    Execute Global
+                                    <br style="font-size: 13px"/>
+                                    Shutdown Hooks
+                                    <br style="font-size: 13px"/>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="400" y="479" fill="#000000" font-family="Poppins" font-size="13px" text-anchor="middle" font-weight="bold">
+                    Execute Global...
+                </text>
+            </switch>
+        </g>
+        <path d="M 315 105 L 315 133.63" fill="none" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 315 138.88 L 311.5 131.88 L 315 133.63 L 318.5 131.88 Z" fill="#f02e65" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="255" y="45" width="120" height="60" rx="30" ry="30" fill="#ffffff" stroke="#f02e65" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 75px; margin-left: 256px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 13px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: normal; word-wrap: normal; ">
+                                <font face="Poppins" style="font-size: 14px">
+                                    Swoole
+                                    <br/>
+                                    +
+                                    <br/>
+                                    Utopia
+                                    <br/>
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="315" y="79" fill="#000000" font-family="Helvetica" font-size="13px" text-anchor="middle">
+                    Swoole...
+                </text>
+            </switch>
+        </g>
+        <path d="M 120 265 L 153.63 265" fill="none" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 158.88 265 L 151.88 268.5 L 153.63 265 L 151.88 261.5 Z" fill="#f02e65" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 315 200 L 315 210 Q 315 220 305 220 L 240 220 Q 230 220 230 226.82 L 230 233.63" fill="none" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 230 238.88 L 226.5 231.88 L 230 233.63 L 233.5 231.88 Z" fill="#f02e65" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 290 270 L 333.63 270" fill="none" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 338.88 270 L 331.88 273.5 L 333.63 270 L 331.88 266.5 Z" fill="#f02e65" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="170" y="240" width="120" height="60" rx="30" ry="30" fill="#ffffff" stroke="#f02e65" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 270px; margin-left: 171px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 14px; font-family: Poppins; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                <span style="font-weight: normal">
+                                    Execute Global
+                                    <br/>
+                                    Init Hooks
+                                    <br/>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="230" y="274" fill="#000000" font-family="Poppins" font-size="14px" text-anchor="middle" font-weight="bold">
+                    Execute Global...
+                </text>
+            </switch>
+        </g>
+        <path d="M 370 300 L 370 310 Q 370 320 360 320 L 230 320 Q 220 320 220 326.82 L 220 333.63" fill="none" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 220 338.88 L 216.5 331.88 L 220 333.63 L 223.5 331.88 Z" fill="#f02e65" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 290 370 L 333.63 370" fill="none" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 338.88 370 L 331.88 373.5 L 333.63 370 L 331.88 366.5 Z" fill="#f02e65" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="170" y="340" width="120" height="60" rx="30" ry="30" fill="#ffffff" stroke="#f02e65" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 370px; margin-left: 171px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 14px; font-family: Poppins; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                <span style="font-weight: normal">
+                                    Get Params &amp;
+                                    <br/>
+                                    Injections
+                                    <br/>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="230" y="374" fill="#000000" font-family="Poppins" font-size="14px" text-anchor="middle" font-weight="bold">
+                    Get Params &amp;...
+                </text>
+            </switch>
+        </g>
+        <path d="M 400 400 L 400 412.57 Q 400 422.57 390 422.57 L 240 422.57 Q 230 422.57 230 430.6 L 230 438.63" fill="none" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 230 443.88 L 226.5 436.88 L 230 438.63 L 233.5 436.88 Z" fill="#f02e65" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 290 475 L 333.63 475" fill="none" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 338.88 475 L 331.88 478.5 L 333.63 475 L 331.88 471.5 Z" fill="#f02e65" stroke="#f02e65" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="170" y="445" width="120" height="60" rx="30" ry="30" fill="#ffffff" stroke="#f02e65" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 475px; margin-left: 171px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 13px; font-family: Poppins; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                <span style="font-weight: normal ; font-size: 13px">
+                                    Execute Group
+                                    <br style="font-size: 13px"/>
+                                    Shutdown Hooks
+                                    <br style="font-size: 13px"/>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="230" y="479" fill="#000000" font-family="Poppins" font-size="13px" text-anchor="middle" font-weight="bold">
+                    Execute Group...
+                </text>
+            </switch>
+        </g>
+        <rect x="510" y="235" width="120" height="60" rx="30" ry="30" fill="#ffffff" stroke="#f02e65" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 265px; margin-left: 511px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 14px; font-family: Poppins; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                <span style="font-weight: normal">
+                                    HTTP Response
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="570" y="269" fill="#000000" font-family="Poppins" font-size="14px" text-anchor="middle" font-weight="bold">
+                    HTTP Response
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://desk.draw.io/support/solutions/articles/16000042487" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
