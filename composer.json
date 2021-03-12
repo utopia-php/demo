@@ -1,0 +1,17 @@
+{
+    "name": "kodumbeats/utopiademo",
+    "description": "An example of the Utopia framework with PHP Swoole as the PHP-FPM alternative.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kodumbeats",
+            "email": "brandon.leckemby@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "utopia-php/swoole": "dev-master",
+        "utopia-php/cli": "dev-master"
+    }
+}
