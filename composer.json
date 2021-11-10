@@ -13,5 +13,8 @@
     "require": {
         "utopia-php/swoole": "dev-master",
         "utopia-php/cli": "dev-master"
+    },
+    "require-dev": {
+        "swoole/ide-helper": "4.6.7"
     }
 }
