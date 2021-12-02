@@ -12,6 +12,7 @@ use Utopia\CLI\Console;
 use Swoole\Http\Server;
 use Swoole\Http\Request as SwooleRequest;
 use Swoole\Http\Response as SwooleResponse;
+use Utopia\Validator\Wildcard;
 
 $http = new Server("0.0.0.0", 8080);
 
@@ -82,6 +83,77 @@ App::get('/goodbye')
             $response->json(['Goodbye' => 'World']);
         }
     );
+
+App::get('/todos')
+    ->inject('request')
+    ->inject('response')
+    ->action(
+        function($request, $response) {
+            $path = \realpath('/app/app/todos.json');
+            $data = json_decode(file_get_contents($path), true);
+            $response->json($data);
+        }
+    );
+
+App::post('/todos')
+    ->inject('response')
+    ->param('task', "", new Wildcard(), 'Prefs key-value JSON object.')
+    ->param('is_complete', true, new Wildcard(), 'Tells whether task is complete or not')
+    ->action(
+        function($task, $is_complete, $response) {
+            $path = \realpath('/app/app/todos.json');
+            $data = json_decode(file_get_contents($path));
+            $task_entry = ['task' => $task, 'is_complete' => $is_complete];
+            array_push($data, $task_entry);
+            $jsonData = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+            file_put_contents($path, $jsonData);
+            $response->json($jsonData);
+        }
+    );
+
+App::put('/todos/:todo_name')
+    ->inject('response')
+    ->param('todo_name', "", new Wildcard(), 'name of the todo')
+    ->param('is_complete', true, new Wildcard(), 'Tells whether task is complete or not')
+    ->action(
+        function($todo_name, $is_complete, $response) {
+            $path = \realpath('/app/app/todos.json');
+            $data = json_decode(file_get_contents($path));
+            // var_dump($data);
+            foreach($data as $object){
+                if($object->task == $todo_name){
+                    $object->is_complete = $is_complete;
+                    break;
+                }
+            }
+            // var_dump($data);
+            $jsonData = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+            file_put_contents($path, $jsonData);
+            $response->json($data);
+        }
+    );
+
+App::delete('/todos/:todo_name')
+    ->inject('response')
+    ->param('todo_name', "", new Wildcard(), 'name of the todo')
+    ->action(
+        function($todo_name, $response) {
+            $path = \realpath('/app/app/todos.json');
+            $data = json_decode(file_get_contents($path));
+            var_dump($todo_name);
+            foreach($data as $object => $item){
+                if($item->task == $todo_name){
+                    var_dump($object);
+                    unset($data[$object]);
+                }
+            }
+            var_dump($data);
+            $jsonData = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+            file_put_contents($path, $jsonData);
+            $response->json($data);
+        }
+    );
+
 
 /*
     Configure the Swoole server to respond with the Utopia app.    

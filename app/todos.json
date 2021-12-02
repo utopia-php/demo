@@ -1,0 +1,14 @@
+[
+    {
+        "task": "Create design document",
+        "is_complete": false
+    },
+    {
+        "task": "Assign tasks to new members",
+        "is_complete": true
+    },
+    {
+        "task": "Schedule team meetings",
+        "is_complete": false
+    }
+]
