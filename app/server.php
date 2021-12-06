@@ -101,27 +101,31 @@ App::post('/todos')
     ->param('is_complete', true, new Wildcard(), 'Tells whether task is complete or not')
     ->action(
         function($task, $is_complete, $response) {
+            $id = uniqid();
+            var_dump($id);
             $path = \realpath('/app/app/todos.json');
-            $data = json_decode(file_get_contents($path));
-            $task_entry = ['task' => $task, 'is_complete' => $is_complete];
+            $data = json_decode(file_get_contents($path), true);
+            $task_entry = ['id' => $id, 'task' => $task, 'is_complete' => $is_complete];
             array_push($data, $task_entry);
             $jsonData = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
             file_put_contents($path, $jsonData);
-            $response->json($jsonData);
+            $response->json($data);
         }
     );
 
-App::put('/todos/:todo_name')
+App::put('/todos/:id')
     ->inject('response')
-    ->param('todo_name', "", new Wildcard(), 'name of the todo')
+    ->param('id', "", new Wildcard(), 'name of the todo')
+    ->param('task', "", new Wildcard(), 'Prefs key-value JSON object.')
     ->param('is_complete', true, new Wildcard(), 'Tells whether task is complete or not')
     ->action(
-        function($todo_name, $is_complete, $response) {
+        function($id, $task, $is_complete, $response) {
             $path = \realpath('/app/app/todos.json');
             $data = json_decode(file_get_contents($path));
             // var_dump($data);
             foreach($data as $object){
-                if($object->task == $todo_name){
+                if($object->id == $id){
+                    $object->task = $task;
                     $object->is_complete = $is_complete;
                     break;
                 }
@@ -133,16 +137,16 @@ App::put('/todos/:todo_name')
         }
     );
 
-App::delete('/todos/:todo_name')
+    App::delete('/todos/:id')
     ->inject('response')
-    ->param('todo_name', "", new Wildcard(), 'name of the todo')
+    ->param('id', "", new Wildcard(), 'id of the todo')
     ->action(
-        function($todo_name, $response) {
+        function($id, $response) {
             $path = \realpath('/app/app/todos.json');
             $data = json_decode(file_get_contents($path));
-            var_dump($todo_name);
+            var_dump($id);
             foreach($data as $object => $item){
-                if($item->task == $todo_name){
+                if($item->id == $id){
                     var_dump($object);
                     unset($data[$object]);
                 }
@@ -153,7 +157,6 @@ App::delete('/todos/:todo_name')
             $response->json($data);
         }
     );
-
 
 /*
     Configure the Swoole server to respond with the Utopia app.    
