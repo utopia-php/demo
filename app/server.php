@@ -143,18 +143,17 @@ App::put('/todos/:id')
     ->action(
         function($id, $response) {
             $path = \realpath('/app/app/todos.json');
-            $data = json_decode(file_get_contents($path));
+            $data = json_decode(file_get_contents($path), true);
             var_dump($id);
             foreach($data as $object => $item){
-                if($item->id == $id){
-                    var_dump($object);
+                if($item['id'] == $id){
                     unset($data[$object]);
                 }
             }
             var_dump($data);
             $jsonData = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
             file_put_contents($path, $jsonData);
-            $response->json($data);
+            $response->noContent();
         }
     );
 
