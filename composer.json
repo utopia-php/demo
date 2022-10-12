@@ -9,6 +9,9 @@
             "email": "brandon.leckemby@gmail.com"
         }
     ],
+    "scripts": {
+        "check": "./vendor/bin/phpstan analyse --level max app"
+    },
     "minimum-stability": "dev",
     "require": {
         "utopia-php/swoole": "dev-master",
