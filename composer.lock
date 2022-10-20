@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/utopia-php/cli.git",
-                "reference": "2186679c9a5b368a55fcde61ad3b7551c9897578"
+                "reference": "c30ef985a4e739758a0d95eb0706b357b6d8c086"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/utopia-php/cli/zipball/2186679c9a5b368a55fcde61ad3b7551c9897578",
-                "reference": "2186679c9a5b368a55fcde61ad3b7551c9897578",
+                "url": "https://api.github.com/repos/utopia-php/cli/zipball/c30ef985a4e739758a0d95eb0706b357b6d8c086",
+                "reference": "c30ef985a4e739758a0d95eb0706b357b6d8c086",
                 "shasum": ""
             },
             "require": {
@@ -26,7 +26,7 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3",
-                "vimeo/psalm": "4.0.1"
+                "squizlabs/php_codesniffer": "^3.6"
             },
             "default-branch": true,
             "type": "library",
@@ -56,30 +56,30 @@
             ],
             "support": {
                 "issues": "https://github.com/utopia-php/cli/issues",
-                "source": "https://github.com/utopia-php/cli/tree/master"
+                "source": "https://github.com/utopia-php/cli/tree/0.14.0"
             },
-            "time": "2021-10-26T03:50:44+00:00"
+            "time": "2022-10-09T10:19:07+00:00"
         },
         {
             "name": "utopia-php/framework",
-            "version": "0.19.0",
+            "version": "0.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/utopia-php/framework.git",
-                "reference": "c86fc078ef258f3c88d3a25233202267314df3a9"
+                "reference": "9f35d36ed4b8fa1c92962c77ef02b49c2f5919df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/utopia-php/framework/zipball/c86fc078ef258f3c88d3a25233202267314df3a9",
-                "reference": "c86fc078ef258f3c88d3a25233202267314df3a9",
+                "url": "https://api.github.com/repos/utopia-php/framework/zipball/9f35d36ed4b8fa1c92962c77ef02b49c2f5919df",
+                "reference": "9f35d36ed4b8fa1c92962c77ef02b49c2f5919df",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3.0"
+                "php": ">=8.0.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.4",
-                "vimeo/psalm": "4.0.1"
+                "phpunit/phpunit": "^9.5.25",
+                "vimeo/psalm": "^4.27.0"
             },
             "type": "library",
             "autoload": {
@@ -105,9 +105,9 @@
             ],
             "support": {
                 "issues": "https://github.com/utopia-php/framework/issues",
-                "source": "https://github.com/utopia-php/framework/tree/0.19.0"
+                "source": "https://github.com/utopia-php/framework/tree/0.22.1"
             },
-            "time": "2021-10-08T11:46:20+00:00"
+            "time": "2022-10-07T14:51:40+00:00"
         },
         {
             "name": "utopia-php/swoole",
@@ -115,23 +115,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/utopia-php/swoole.git",
-                "reference": "c9664cf6f9e4a671d72c8d47e33e5df3e8869914"
+                "reference": "3b9c245eef6c1db300185da12b5db9bbef833323"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/utopia-php/swoole/zipball/c9664cf6f9e4a671d72c8d47e33e5df3e8869914",
-                "reference": "c9664cf6f9e4a671d72c8d47e33e5df3e8869914",
+                "url": "https://api.github.com/repos/utopia-php/swoole/zipball/3b9c245eef6c1db300185da12b5db9bbef833323",
+                "reference": "3b9c245eef6c1db300185da12b5db9bbef833323",
                 "shasum": ""
             },
             "require": {
                 "ext-swoole": "*",
-                "php": ">=7.4",
+                "php": ">=8.0",
                 "utopia-php/framework": "0.*.*"
             },
             "require-dev": {
+                "laravel/pint": "1.2.*",
                 "phpunit/phpunit": "^9.3",
-                "swoole/ide-helper": "4.5.5",
-                "vimeo/psalm": "4.0.1"
+                "swoole/ide-helper": "4.8.3",
+                "vimeo/psalm": "4.15.0"
             },
             "default-branch": true,
             "type": "library",
@@ -164,7 +165,7 @@
                 "issues": "https://github.com/utopia-php/swoole/issues",
                 "source": "https://github.com/utopia-php/swoole/tree/master"
             },
-            "time": "2021-10-25T10:17:24+00:00"
+            "time": "2022-10-14T06:42:51+00:00"
         }
     ],
     "packages-dev": [
@@ -292,5 +293,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }
