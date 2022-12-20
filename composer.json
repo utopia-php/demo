@@ -9,6 +9,12 @@
         "utopia-php/cli": "dev-master"
     },
     "require-dev": {
-        "swoole/ide-helper": "4.6.7"
+        "swoole/ide-helper": "4.6.7",
+        "vimeo/psalm": "4.0.1",
+        "laravel/pint": "1.2.*"
+    },
+    "scripts": {
+        "lint": "./vendor/bin/pint --test",
+        "format": "./vendor/bin/pint"
     }
 }
