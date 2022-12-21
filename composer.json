@@ -10,6 +10,7 @@
         "format": "./vendor/bin/pint"
     },
     "require": {
+        "php": "^8.0",
         "utopia-php/swoole": "dev-master",
         "utopia-php/cli": "dev-master"
     },
