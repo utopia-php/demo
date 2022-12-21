@@ -35,7 +35,7 @@ Files::load(__DIR__.'/../public'); // Static files location
 
 App::init()
     ->inject('response')
-    ->action(function($response) {
+    ->action(function ($response) {
         $response
             ->addHeader('Cache-control', 'no-cache, no-store, must-revalidate')
             ->addHeader('Expires', '-1')
@@ -46,7 +46,7 @@ App::init()
 App::shutdown()
     ->groups(['api'])
     ->inject('request')
-    ->action(function($request) {
+    ->action(function ($request) {
         $date = new DateTime();
         Console::success($date->format('c').' '.$request->getURI());
     });
