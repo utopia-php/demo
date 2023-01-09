@@ -33,18 +33,23 @@ Files::load(__DIR__.'/../public'); // Static files location
 
 */
 
-App::init(function ($response) {
-    $response
-        ->addHeader('Cache-control', 'no-cache, no-store, must-revalidate')
-        ->addHeader('Expires', '-1')
-        ->addHeader('Pragma', 'no-cache')
-        ->addHeader('X-XSS-Protection', '1;mode=block');
-}, ['response'], '*');
+App::init()
+    ->inject('response')
+    ->action(function ($response) {
+        $response
+            ->addHeader('Cache-control', 'no-cache, no-store, must-revalidate')
+            ->addHeader('Expires', '-1')
+            ->addHeader('Pragma', 'no-cache')
+            ->addHeader('X-XSS-Protection', '1;mode=block');
+    });
 
-App::shutdown(function ($request) {
-    $date = new DateTime();
-    Console::success($date->format('c').' '.$request->getURI());
-}, ['request'], 'api');
+App::shutdown()
+    ->groups(['api'])
+    ->inject('request')
+    ->action(function ($request) {
+        $date = new DateTime();
+        Console::success($date->format('c').' '.$request->getURI());
+    });
 
 /*
     The routes are defined before the Swoole server is turned on.

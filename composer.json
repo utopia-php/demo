@@ -4,17 +4,20 @@
     "type": "project",
     "license": "MIT",
     "minimum-stability": "dev",
+    "scripts": {
+        "check": "./vendor/bin/phpstan analyse --level max app",
+        "lint": "./vendor/bin/pint --test",
+        "format": "./vendor/bin/pint"
+    },
     "require": {
+        "php": "^8.0",
         "utopia-php/swoole": "dev-master",
         "utopia-php/cli": "dev-master"
     },
     "require-dev": {
         "swoole/ide-helper": "4.6.7",
+        "phpstan/phpstan": "1.9.x-dev",
         "vimeo/psalm": "4.0.1",
         "laravel/pint": "1.2.*"
-    },
-    "scripts": {
-        "lint": "./vendor/bin/pint --test",
-        "format": "./vendor/bin/pint"
     }
 }
