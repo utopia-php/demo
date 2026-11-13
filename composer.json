@@ -15,9 +15,9 @@
         "utopia-php/cli": "dev-master"
     },
     "require-dev": {
-        "swoole/ide-helper": "4.6.7",
-        "phpstan/phpstan": "1.9.x-dev",
-        "vimeo/psalm": "4.0.1",
-        "laravel/pint": "1.2.*"
+        "swoole/ide-helper": "4.8.13",
+        "phpstan/phpstan": "1.12.x",
+        "vimeo/psalm": "4.30.0",
+        "laravel/pint": "1.32.*"
     }
 }
