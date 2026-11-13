@@ -1,4 +1,4 @@
-FROM phpswoole/swoole:4.6-php8.0-alpine
+FROM phpswoole/swoole:4.8-php8.0-alpine@sha256:a24267a8bfb29e66dde574fecee3f76ac4547a8532a78bb0253b84b420f1d282
 
 WORKDIR /app
 
