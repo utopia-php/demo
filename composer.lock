@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "31f9c411b3357c7dbd9408c2a3937e7b",
+    "content-hash": "04b9975bc56f8f7e8741be06f9c9589b",
     "packages": [
         {
             "name": "utopia-php/cli",
@@ -1358,23 +1358,17 @@
         },
         {
             "name": "swoole/ide-helper",
-            "version": "4.6.7",
+            "version": "6.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swoole/ide-helper.git",
-                "reference": "0d1409b8274117addfe64d3ea412812a69807411"
+                "reference": "7babe0825e72d1b4705fd137621f5eb755e07f12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/0d1409b8274117addfe64d3ea412812a69807411",
-                "reference": "0d1409b8274117addfe64d3ea412812a69807411",
+                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/7babe0825e72d1b4705fd137621f5eb755e07f12",
+                "reference": "7babe0825e72d1b4705fd137621f5eb755e07f12",
                 "shasum": ""
-            },
-            "require-dev": {
-                "guzzlehttp/guzzle": "~6.5.0",
-                "laminas/laminas-code": "~3.4.0",
-                "squizlabs/php_codesniffer": "~3.5.0",
-                "symfony/filesystem": "~4.0"
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -1390,23 +1384,10 @@
             "description": "IDE help files for Swoole.",
             "support": {
                 "issues": "https://github.com/swoole/ide-helper/issues",
-                "source": "https://github.com/swoole/ide-helper/tree/4.6.7"
+                "source": "https://github.com/swoole/ide-helper/tree/6.2.5"
             },
-            "funding": [
-                {
-                    "url": "https://gitee.com/swoole/swoole?donate=true",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/swoole",
-                    "type": "github"
-                },
-                {
-                    "url": "https://opencollective.com/swoole-src",
-                    "type": "open_collective"
-                }
-            ],
-            "time": "2021-05-14T16:05:16+00:00"
+            "time": "2026-11-07T03:27:41+00:00",
+            "published-time": "2026-11-07T03:31:14+00:00"
         },
         {
             "name": "symfony/console",
@@ -2502,15 +2483,15 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "utopia-php/swoole": 20,
+        "phpstan/phpstan": 20,
         "utopia-php/cli": 20,
-        "phpstan/phpstan": 20
+        "utopia-php/swoole": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.0"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.11.0"
 }
